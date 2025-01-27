@@ -1,9 +1,10 @@
-# Terraform with Vault Integration
+# Terraform with Vault Integration V.2.1
 
 This is a sample project demonstrating the integration of **Terraform** with **Vault** for managing authentication, secrets, and policies for various teams.
 
 ## How to Test the Integration
 
+Follow the steps below to test the Terraform
 Follow the steps below to test the Terraform configuration with your Vault server.
 
 ### Prerequisites
@@ -64,3 +65,4 @@ To remove the resources created by Terraform, run:
 ```bash
 terraform destroy -auto-approve
 ```
+
