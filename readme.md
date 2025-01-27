@@ -16,7 +16,7 @@ Follow the steps below to test the Terraform configuration with your Vault serve
 1. **Clone the repository** (if applicable):
    ```bash
    git clone git@github.com:TunNyein/terraform-vault-v2.1.git
-   cd terraform-vault
+   cd terraform-vault-v2.1
 
 2. Create a terraform.tfvars file:
 In your terminal, navigate to the project directory and create the terraform.tfvars file to store the Vault root token:
