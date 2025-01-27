@@ -40,20 +40,20 @@ After saving the changes, run the following Terraform command to apply the confi
 terraform apply -auto-approve
 ```
 
-**This command will:**
+**This will:**
 
-- Authenticate with Vault using the root token provided.
-- Create the necessary paths for the teams (e.g., devops_team1, infra_team1).
+
+- Create the Auth paths for the teams (e.g., kvv2_team1, kvv2_team2).
 - Set up user accounts for the teams.
 - Enable secret engines for storing team-specific secrets.
 - Apply policies to manage access to secrets.
 
 **Verifying the Integration**
 1. Check Vault:
-Log into your Vault server and check if the paths, users, and policies were created correctly.
+Log into the Vault server and check whether the paths, users, and policies were created correctly.
 
 2. Check Secrets:
-Ensure that secrets have been stored under the designated paths (e.g., kvv2_devops_team1).
+Ensure that secrets have been stored under the designated paths (e.g., kvv2_team1).
 
 3. Test Authentication:
 Use the Vault UI or CLI to test authentication using the user accounts created by Terraform.
