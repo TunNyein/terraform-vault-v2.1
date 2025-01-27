@@ -65,4 +65,3 @@ To remove the resources created by Terraform, run:
 ```bash
 terraform destroy -auto-approve
 ```
-
